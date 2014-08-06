@@ -12,12 +12,12 @@ rootpw nemo
 
 user --name nemo  --groups audio,video --password nemo 
 
-repo --name=mer-core --baseurl=http://releases.merproject.org/releases/@MER_RELEASE@/builds/armv7hl/packages  --debuginfo
-repo --name=nemo-ux --baseurl=http://repo.merproject.org/obs/nemo:/@FLAVOUR@:/ux/@NEMO_RELEASE@_armv7hl/ 
-repo --name=nemo-apps --baseurl=http://repo.merproject.org/obs/nemo:/@FLAVOUR@:/apps/@NEMO_RELEASE@_armv7hl/ 
-repo --name=nemo-mw --baseurl=http://repo.merproject.org/obs/nemo:/@FLAVOUR@:/mw/@NEMO_RELEASE@_armv7hl/ 
+repo --name=mer-core --baseurl=http://releases.merproject.org/releases/latest/builds/armv7hl/packages/  --debuginfo
+repo --name=nemo-ux --baseurl=http://repo.merproject.org/obs/nemo:/@FLAVOUR@:/ux/@NEMO_RELEASE@_armv7hl/
+repo --name=nemo-apps --baseurl=http://repo.merproject.org/obs/nemo:/@FLAVOUR@:/apps/@NEMO_RELEASE@_armv7hl/
+repo --name=nemo-mw --baseurl=http://repo.merproject.org/obs/nemo:/@FLAVOUR@:/mw/@NEMO_RELEASE@_armv7hl/
 repo --name=mer-qt --baseurl=http://repo.merproject.org/obs/mer:/qt:/devel/latest_armv7hl/
-repo --name=mer-tools --baseurl=http://repo.pub.meego.com/releases/Mer-Tools/rolling/builds/armv7hl/packages/
+repo --name=mer-tools --baseurl=http://repo.merproject.org/obs/mer-tools:/stable/latest_armv7hl/
 
 
 %packages
